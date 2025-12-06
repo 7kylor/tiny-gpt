@@ -1,0 +1,45 @@
+# Build directories
+build/
+cmake-build-*/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# Compiled executables
+*.exe
+*.out
+*.app
+
+# Object files
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.a
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Checkpoints and model files
+checkpoints/
+*.bin
+*.pt
+*.pth
+*.ckpt
+
+# Compile commands (optional, can be regenerated)
+compile_commands.json
+
+# Logs
+*.log
